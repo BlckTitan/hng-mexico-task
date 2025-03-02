@@ -7,7 +7,7 @@ export default function Task() {
 
         <Accordion.Item eventKey="0">
           <Accordion.Header>HNG Task 0 - Profile Card & Blog</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='visible'>
 
             <h3>Task Description</h3>
 
@@ -39,7 +39,7 @@ export default function Task() {
 
         <Accordion.Item eventKey="1">
           <Accordion.Header>HNG Task 1 - Color Game</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='visible'>
             <h3>Task Description</h3>
             <p>
               HTML, CSS, and Vanilla JavaScript or React Game Requirements, create a simple color game.
@@ -56,7 +56,7 @@ export default function Task() {
 
         <Accordion.Item eventKey="2">
           <Accordion.Header>HNG Task 2 - Conference Ticket Generator</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='visible'>
             <h3>Task Description</h3>
             <p>
               You will build and host a Conference Ticket Generator using React or any React Framework (e.g., Next.js, etc.). 
@@ -75,7 +75,7 @@ export default function Task() {
 
         <Accordion.Item eventKey="3">
           <Accordion.Header>HNG Task 3 - AI Powered Text Processor Interface</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='visible'>
             <>
               <h3>Task Description</h3>
               <p>
@@ -110,7 +110,7 @@ export default function Task() {
 
         <Accordion.Item eventKey="4">
           <Accordion.Header>HNG Task 4 - Kaban Board</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='visible'>
             <h3>Task Description</h3>
             <p>
               Task - Design a Simple Kanban Board
