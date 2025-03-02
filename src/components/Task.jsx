@@ -7,7 +7,7 @@ export default function Task() {
 
         <Accordion.Item eventKey="0">
           <Accordion.Header>HNG Task 0 - Profile Card & Blog</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='visible'>
 
             <h3>Task Description</h3>
 
